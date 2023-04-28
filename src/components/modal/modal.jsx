@@ -65,6 +65,7 @@ function Modal({setModalOpen, data, btnName, userInfos, setUserInfo, add, modalO
             setUserInfo(updatedUserInfos)
             localStorage.setItem('userInfos', JSON.stringify(updatedUserInfos))
             setModalOpen(false)
+            toast.success("User successfully edited!")
         } catch (e) {
             console.log(e)
         }
