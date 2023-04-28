@@ -1,0 +1,24 @@
+.empty-users{
+    width: 100%;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    height: 260px;
+    -webkit-box-align: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 80px;
+    background-color: white;
+    min-height: 400px;
+    position: absolute;
+}
+
+.empty-users img{
+    width: 300px;
+}
+
+.empty-users h2{
+    font-size: 20px;
+    margin-top: 25px;
+    color: rgb(169, 169, 169);
+}

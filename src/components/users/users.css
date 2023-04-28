@@ -1,0 +1,74 @@
+.f{
+    background-color: white;
+    color: purple;
+    border-bottom: 1px solid white;
+}
+
+.selection{
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.selection div{
+    display: flex;
+    width: 410px;
+    justify-content: space-between;
+    font-size: 13px;
+}
+
+.selection i{
+    display: flex;
+    cursor: pointer;
+}
+
+.selection p{
+    padding-left: 8px;
+}
+
+.selection i:nth-child(1){
+    color: green;
+}
+
+.selection i:nth-child(2){
+    color: blue;
+}
+
+.selection i:nth-child(3){
+    color: rgb(185, 0, 0);
+}
+
+table{
+    width: 100%;
+    margin-top: 20px;
+}
+
+table tr td:nth-child(2):hover{
+    background-color: rgb(217, 237, 255);
+    cursor: pointer;
+}
+
+table tr{
+    width: 100%;
+}
+
+table th{
+    padding: 8px;
+}
+
+table tr:nth-child(1){
+    background-color: rgb(217, 237, 255);
+}
+
+table tr td:nth-child(1){
+    text-align: center;
+    padding: 0;
+}
+
+table td{
+    padding: 8px;
+    padding-left: 10px;
+}
+
+.bg td{
+    background-color: rgb(244, 246, 248);
+}

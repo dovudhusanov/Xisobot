@@ -1,0 +1,36 @@
+header{
+    min-width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 10px 8px 0;
+    justify-content: space-between;
+    background-color: #551A8BFF;
+}
+
+header div{
+    display: flex;
+    width: 500px;
+    justify-content: space-between;
+}
+
+header div:nth-child(2){
+    display: flex;
+    width: 260px;
+    justify-content: space-between;
+}
+
+header div a h4{
+    padding: 10px;
+    border-radius: 5px 5px 0 0;
+    cursor: pointer;
+    color: rgb(247, 247, 247);
+}
+
+header a{
+    color: rgb(247, 247, 247);
+}
+
+header div a.active h4{
+    background-color: white;
+    color: #551A8BFF;
+}
